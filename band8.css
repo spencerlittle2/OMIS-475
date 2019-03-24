@@ -1,0 +1,40 @@
+table {margin: auto;
+    border: 5px solid #ff3333;
+    box-align: center;
+    width: 50%;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    display: block;
+    background: lightcoral;
+    
+
+}
+
+td, th { border: 1px solid black;
+    text-align: center;
+}
+
+
+body { background: #800000;
+        
+}
+
+caption { display: table-caption;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            font-size: 25px;
+        
+}
+
+footer { text-align: center;
+        font-size: 15px;
+        color: white; 
+        
+
+}
+
+a:link {
+    color: black
+}
+
