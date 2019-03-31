@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Music Survey</title>
+    <meta charset="utf-8">
+<style>
+    form {
+    font-family: Arial, sans-serif; 
+    padding: 10px;
+    border-bottom: 10px;}
+    label { display: block;
+            font-weight: bold;}
+
+    fieldset { width: 400px;}
+    legend { font-weight: bold;}
+    select {display: block;}
+    
+    textarea { display: block; }
+  
+
+</style>
+</head>
+<body>
+    <h1>Music Survey</h1>
+    <form method="POST" action="http://webdevbasics.net/scripts/demo.php">
+    Name: <input type="text" name="name" id="name" required="required"><br>
+    E-mail: <input type="text" name="email" id="email" required="required"><br>
+
+
+  
+    <fieldset><legend>Select Your Favorite Types of Music:</legend>
+        <label><input type="checkbox" name="pop" id="pop" value="yes">Pop</label>
+        <label><input type="checkbox" name="classical" id="classical" value="yes">Classical</label>
+        <label><input type="checkbox" name="rock" id="rock" value="rock">Rock</label>
+        <label><input type="checkbox" name="folk" id="folk" value="yes">Folk</label>
+        <label><input type="checkbox" name="rap" id="rap" value="yes">Rap</label>
+        <label><input type="checkbox" name="other" id="other" value="yes">Other</label>
+    </fieldset>
+
+
+    <fieldset><legend>Select how often you purchase music CD's:</legend>
+        <label><input type="radio" name="afcd" id="weekly" value="weekly">Weekly</label>
+        <label><input type="radio" name="afcd" id="afewperyear" value="A few CD's Each Week">A few CD's Each Year</label>
+        <label><input type="radio" name="afcd" id="monthly" value="Monthly">Monthly</label>
+        <label><input type="radio" name="afcd" id="never" value="never">Never</label>
+    </fieldset>
+
+   
+    <label for="locations">Select the locations you listen to Music:</label>
+        <select size="3" name="locations" multiple="multiple" id="locations">
+            <option value="home">At Home</option>           
+            <option value="In car">In the car</option>         
+            <option value="Anywhere">Anywhere (MP3 Player)</option> 
+            <option value="nowhere">I dont listen to music</option>
+        </select>
+
+
+        <label for="comments">What role does music play in your life?</label>
+        <textarea name="comments" id="comments" rows="3" columns="60" required="required"></textarea><br>
+                     <input type="submit"> <input type="reset">
+    
+
+
+</form>
+</body>
+<footer>
+    <p>Posted by: Spencer Little</p>
+    <p>Contact Information: <a href="mailto:spencerlittle2@yahoo.com">spencerlittle2@yahoo.com</a></p>
+</footer>
+</html>
