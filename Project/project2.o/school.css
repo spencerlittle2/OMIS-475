@@ -27,11 +27,10 @@ ul {
   }
   header {
       background-color: lightslategray;
-      background-image: url(image3.jpg);
       background-position: bottom;
       background-repeat: repeat-x;
-      height: 100px;
-      color: lightblue;
+      height: 145px;
+      background: url(image3.jpg);
       text-align: right;
       padding-top: 20px;
       padding-bottom: 20px;
