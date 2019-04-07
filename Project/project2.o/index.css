@@ -26,11 +26,11 @@ ul {
 
   }
   header {
-      background-color: #636631;
+      background-color: lightslategray;
       background-position: bottom;
       background-repeat: repeat-x;
       height: 120px;
-      color: #cc66cc;
+      color: lightblue;
       text-align: right;
       padding: 0 20px;
       border-bottom: 2px solid #000000;
@@ -45,5 +45,5 @@ ul {
       margin-top: 0;
       font-size: 3em;
       text-align: left;
-      
+
   }
