@@ -16,7 +16,7 @@ ul {
   /* Change the link color on hover */
   li a:hover {
     background-color: #555;
-    color: white;
+    color: blue;
   }
   
   #container { background-color: #eeeeee;
@@ -32,7 +32,7 @@ ul {
       height: 120px;
       color: lightblue;
       text-align: right;
-      padding: 0 20px;
+      padding: 25px;
       border-bottom: 2px solid #000000;
   }
 
@@ -44,6 +44,11 @@ ul {
   h2 { 
       margin-top: 0;
       font-size: 3em;
-      text-align: left;
+      text-align: center;
 
+  }
+
+  .floatcenter { 
+      margin: 10px;
+      float: center;
   }
