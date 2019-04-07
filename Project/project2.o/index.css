@@ -1,7 +1,55 @@
-header, main, footer { display: block; }
-* {box-sizing: border box; }
-body { background-color: lightslategray;
+* {
+    box-sizing: border-box;
+ }
+body { 
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Header Style */
+header {
+    background-color: lightslategray;
+    padding: 30px;
+    text-align: center;
+    font-size: 33px;
+    color: white;
+}
+
+/* Flexbox Containers */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Navigation styling */
+nav { 
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: grey;
+    padding: 20px;
+
+}
+
+/* Content stlye (my image) 
+
+
+*/
+
+/* responsive layout */
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
 #wrapper{ width: 100%;
     top: 0;
     position: fixed;
