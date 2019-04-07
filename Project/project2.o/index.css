@@ -49,19 +49,3 @@ nav {
 
 
 
-
-#wrapper{ width: 100%;
-    top: 0;
-    position: fixed;
-    overflow: hidden;
-    margin: auto;
-    background-color: turquoise;
-}
-nav { display: block;
-    position: fixed;
-    background-color: pink;
-    overflow: hidden;
-
-
-
-} 
