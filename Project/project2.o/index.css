@@ -19,3 +19,31 @@ ul {
     color: white;
   }
   
+  #container { background-color: #eeeeee;
+                color: #006600;
+                min-width: 960px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  header {
+      background-color: #636631;
+      background-position: bottom;
+      background-repeat: repeat-x;
+      height: 120px;
+      color: #cc66cc;
+      text-align: right;
+      padding: 0 20px;
+      border-bottom: 2px solid #000000;
+  }
+
+  nav {
+      float: left;
+      width: 150px;
+  }
+
+  h2 { 
+      margin-top: 0;
+      font-size: 3em;
+      text-align: left;
+      
+  }
