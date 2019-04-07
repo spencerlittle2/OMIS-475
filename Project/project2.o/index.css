@@ -1,51 +1,21 @@
-* {
-    box-sizing: border-box;
- }
-body { 
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Header Style */
-header {
-    background-color: lightslategray;
-    padding: 30px;
-    text-align: center;
-    font-size: 33px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
     color: white;
-}
-
-/* Flexbox Containers */
-section {
-    display: -webkit-flex;
-    display: flex;
-}
-
-/* Navigation styling */
-nav { 
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    background: grey;
-    padding: 20px;
-
-}
-
-/* Content stlye (my image) 
-
-
-*/
-
-/* responsive layout */
-@media (max-width: 600px) {
-    section {
-        -webkit-flex-direction: column;
-        flex-direction: column;
-    }
-}
-
-
-
-
-
-
-
+  }
+  
