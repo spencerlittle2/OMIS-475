@@ -27,6 +27,7 @@ ul {
   }
   header {
       background-color: lightslategray;
+      background-image: url(image3.jpg);
       background-position: bottom;
       background-repeat: repeat-x;
       height: 100px;
