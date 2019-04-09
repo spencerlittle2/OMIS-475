@@ -19,9 +19,12 @@ ul {
     color: blue;
   }
   
- 
+  #container { background-color: #eeeeee;
+                color: #006600;
+                min-width: 960px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-  
+  }
   header {
       background-color: lightslategray;
       background-position: bottom;
@@ -43,26 +46,24 @@ ul {
       margin-top: 0;
       font-size: 3em;
       text-align: center;
-      color: white;
-      padding-top: 20px;
 
   }
 
- 
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 450px;
+    padding-top: 30px;
+
+ }
 
  footer { text-align: center;
     font-size: 15px;
     color: white; }
 
-
-    .quad-image {
-        background-image: url("image10.jpg");
-        background-color: #cccccc;
-        height: 700px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
+a:link {
+        color: black
     }
-
     
