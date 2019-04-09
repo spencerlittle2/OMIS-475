@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initital scale=1">
-<link rel="stylesheet" href="contact.css"> 
+<link rel="stylesheet" href="school.css"> 
 <head>
-    <title>Contact Page Web Presence</title>
+    <title>School Page Web Presence</title>
 </head>
 <body>
    <div id="container">
         <header role="banner">
-            <center><h2>Spencer John Little</h2></center>
+            
         </header>
         <nav role="navigation">
                 <ul>
@@ -19,36 +19,43 @@
                     <li><a href="Contact.html">Contact</a></li>
                     <li><a href="Achievements.html">Achievements</a></li>
                 </ul>
-
+            
          </nav>
+            
+         <center><h1>University Background</h1></center>
 
-         
-
-<h1>Please leave me your feedback</h1>
-    <form method="POST" action="http://webdevbasics.net/scripts/demo.php">
-    Name: <input type="text" name="name" id="name" required="required"><br>
-    E-mail: <input type="text" name="email" id="email" required="required"><br>
-    Comments:<br>
-    <textarea name="comments" id="comments" rows="6" columns="25" maxlength="1600" required="required"></textarea><br>
-    <input type="submit"> <input type="reset">
+         <div class="row">
+           <div class="column" style="background-color:#aaa;">
     
+            <h2>Provide feed back on my site</h2>
+       <form method="POST" action="http://webdevbasics.net/scripts/demo.php">
+        First Name <input type="text" name="firstname" id="firstname" required="required"><br>
+        <br>
+        E-mail:    <input type="text" name="email" id="email" required="required"><br>
+        <br>
 
-
-</form>
-
-  
-
-
-
-
-
-
-
-       
-
-
-</body>
+        Comments:<br>
+        <textarea name="comments" id="comments" rows="6" columns="25" maxlength="1600" required="required"></textarea><br>
 
 
 
-</html>
+        <input type="submit"> <input type="reset">
+           </div>
+           <div class="column" style="background-color:#bbb;">
+             <h2>Contact me via:</h2>
+             
+             <a href="mailto:spencerlittle2@yahoo.com"><img border="0"
+                alt="spencerlittle2@yahoo.com" src="email.png" width="100" height="100"></a>
+             <a href="https://www.linkedin.com/in/spencer-little-a34ab9123/">
+                <img border="0" alt="https://www.linkedin.com/in/spencer-little-a34ab9123/" src="linkedin.png" width="100" height="100">
+                </a>
+           </div>
+         </div>
+
+
+         <hr>
+         <footer>
+             <h4>Email the College to learn more about educational programs</h4>
+             <h4>Contact Information: <a href="mailto:cobadvising@niu.edu">cobadvising@niu.edu</a></h4>
+         </footer>
+         </html>

@@ -20,7 +20,7 @@ ul {
   }
   
   #container { background-color: #eeeeee;
-                color: #006600;
+                color: white;
                 min-width: 960px;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -29,8 +29,8 @@ ul {
       background-color: lightslategray;
       background-position: bottom;
       background-repeat: repeat-x;
-      height: 100px;
-      color: lightblue;
+      height: 180px;
+      background: url(image3.jpg);
       text-align: right;
       padding-top: 20px;
       padding-bottom: 20px;
@@ -42,12 +42,22 @@ ul {
       width: 150px;
   }
 
-  h2 { 
-      margin-top: 0;
-      font-size: 3em;
-      text-align: center;
-
+  * {
+    box-sizing: border-box;
   }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  
 
  .center {
     display: block;
@@ -59,9 +69,19 @@ ul {
 
  }
 
- form {
-    font-family: Arial, sans-serif; 
-    padding: 10px;
-    border-bottom: 10px;
-box-align: right;
-}
+ h1 { 
+     color: red;
+ }
+
+ h2 {
+     text-align: center;
+     color: black;
+ }
+ p { text-align: left;
+
+ }
+
+ h4 {
+     text-align: center;
+     color: black;
+ }
