@@ -25,3 +25,7 @@ caption { display: table-caption;
         color: red;
 
 }
+
+footer {
+    background-color: white;
+}
