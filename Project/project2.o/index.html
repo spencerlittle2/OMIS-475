@@ -11,7 +11,7 @@
     <div class="row">
     <div class="quad-text column">
 
-    <h2>Spener John Little</h2>
+    <h2 id="demo">Spener John Little</h2>
     <h2>Student at Northern Illinois University</h2>
 
 </div>
@@ -30,11 +30,24 @@
             </div>
             </div> 
          
-         
+            <script>
+                    document.getElementById("demo").addEventListener("mouseover", mouseOver);
+                    document.getElementById("demo").addEventListener("mouseout", mouseOut);
+                    
+                    function mouseOver() {
+                      document.getElementById("demo").style.color = "red";
+                    }
+                    
+                    function mouseOut() {
+                      document.getElementById("demo").style.color = "white";
+                    }
+
+                    </script>
 
 
 </body>
 
+<footer>Image from Northern Illinois Univeristy - Not copyright infringement intended</footer>
 
 
 </html>

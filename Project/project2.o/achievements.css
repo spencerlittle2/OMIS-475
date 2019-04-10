@@ -13,7 +13,7 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color on hover */
+  
   li a:hover {
     background-color: #555;
     color: blue;
@@ -50,11 +50,11 @@ ul {
     display: flex;
   }
   
-  /* Create two equal columns that sits next to each other */
+  
   .column {
     flex: 20%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px;
   }
 
   
@@ -71,4 +71,8 @@ ul {
 
  h1 { 
      color: black;
+ }
+
+ footer {
+   padding-top: 300px;
  }
