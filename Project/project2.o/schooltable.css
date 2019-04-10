@@ -25,3 +25,8 @@ caption { display: table-caption;
             color: red;
 
 }
+
+
+footer {
+        padding-top: 500px;
+}
