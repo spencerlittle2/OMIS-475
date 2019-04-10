@@ -19,9 +19,6 @@ ul {
     color: blue;
   }
   
- 
-
-  
   header {
       background-color: lightslategray;
       background-position: bottom;
@@ -55,31 +52,28 @@ ul {
       font-size: 2em;
 
   }
-
- 
-
  footer { text-align: center;
     font-size: 15px;
     color: white; }
 
 
-    .quad-image {
-        background-image: url("image10.jpg");
-        background-color: #cccccc;
-        height: 700px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
+.quad-image {
+    background-image: url("image10.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     }
 
-    .quad-text {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
+.quad-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
     }
 
     footer {
