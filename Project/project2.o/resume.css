@@ -25,16 +25,17 @@ ul {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   }
+  
   header {
-      background-color: lightslategray;
-      background-position: bottom;
-      background-repeat: repeat-x;
-      height: 180px;
-      background: url(image3.jpg);
-      text-align: right;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      border-bottom: 2px solid #000000;
+    background-color: lightslategray;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 180px;
+    background: url(image3.jpg);
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000000;
   }
 
   nav {

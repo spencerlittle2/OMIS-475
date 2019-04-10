@@ -22,10 +22,6 @@ caption { display: table-caption;
             padding-top: 10px;
             padding-bottom: 5px;
             font-size: 25px;
-
-}
-
-footer { text-align: center;
-        font-size: 10px;
+            color: red;
 
 }
