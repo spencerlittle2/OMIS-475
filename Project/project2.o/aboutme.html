@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Music Survey</title>
+    <meta charset="utf-8">
+<style>
+    form {
+    font-family: Arial, sans-serif; 
+    padding: 10px;
+    border-bottom: 10px;
+    display: inline;
+    } 
+
+    label { display: block;
+            font-weight: bold;}
+
+    fieldset { width: 400px;}
+    legend { font-weight: bold;}
+    select {display: block;}
+    
+    textarea { display: block; }
+
+    body {
+        color: blue;
+        background-color: lightblue;
+    }
+  
+    
+
+</style>
+</head>
+<body>
+    <h1>Programming Survey</h1>
+    <form method="POST" action="http://webdevbasics.net/scripts/demo.php">
+    Name: <input type="text" name="name" id="name" required="required"><br>
+    E-mail: <input type="text" name="email" id="email" required="required"><br>
+
+
+  
+    <fieldset><legend>Select Your Favorite Programming Language:</legend>
+        <label><input type="checkbox" name="Java" id="java" value="yes">Java</label>
+        <label><input type="checkbox" name="JavaScript" id="javascript" value="yes">JavaScript</label>
+        <label><input type="checkbox" name="C-sharp" id="c-sharp" value="rock">C-sharp</label>
+        <label><input type="checkbox" name="Python" id="python" value="yes">Python</label>
+        <label><input type="checkbox" name="Perl" id="perl" value="yes">Perl</label>
+        <label><input type="checkbox" name="neither" id="neither" value="yes">Other</label>
+    </fieldset>
+
+
+    <fieldset><legend>Select how often you write code:</legend>
+        <label><input type="radio" name="code" id="daily" value="daily">Daily</label>
+        <label><input type="radio" name="code" id="afewtimesperweek" value="A few times per week">A few times per week</label>
+        <label><input type="radio" name="code" id="monthly" value="Monthly">Monthly</label>
+        <label><input type="radio" name="code" id="never" value="never">Never</label>
+    </fieldset>
+
+   
+    <label for="locations">Select your reasons for programming</label>
+        <select size="3" name="locations" multiple="multiple" id="locations">
+            <option value="work">For Work</option>           
+            <option value="For Class">For Class</option>         
+            <option value="For Fun">For Fun</option> 
+            <option value="For a project">For a project</option> 
+            <option value="never">I dont program</option>
+        </select>
+
+
+        <label for="comments">How has programming had an affect on your life</label>
+        <textarea name="comments" id="comments" rows="3" columns="60" required="required"></textarea><br>
+                     <input type="submit"> <input type="reset">
+    
+
+
+</form>
+
+<p><a href="index.html">Click to return home</a></p>
+
+
+</body>
+
+</html>

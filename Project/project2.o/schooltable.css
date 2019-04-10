@@ -1,0 +1,32 @@
+table {margin: auto;
+        border: 10px solid #000066;
+        box-align: center;
+        width: 400px;
+        background: lightcoral;
+
+}
+
+td, th { border: 1px solid black;
+        text-align: center;
+        
+
+
+}
+
+body { background: lightslategray;
+
+}
+
+caption { display: table-caption;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            font-size: 25px;
+            color: red;
+
+}
+
+
+footer {
+        padding-top: 500px;
+}
