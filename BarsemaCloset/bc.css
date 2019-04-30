@@ -16,6 +16,8 @@ header { background: url("bchome.jpg");
 .logo { position: absolute;
        top: 200px;
        left: 600px;
+       width: 900px;
+       opacity: 0.8;
      
 
 
