@@ -4,11 +4,11 @@ header, nav, main, footer, aside { display: block; }
 body { margin:0;
        background-color: lightgrey; }
 
-header { background: url("Logo.png");
+header { background: url("bchome.jpg");
         background-color: #838383;
          background-position: bottom;
          background-repeat: repeat-x;
-         height: 400px;
+         height: 550px;
          color: #ffffff;
          text-align: right;
          border-bottom: 1px solid #000000; }		 
