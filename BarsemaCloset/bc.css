@@ -4,7 +4,7 @@ header, nav, main, footer, aside { display: block; }
 body { margin:0;
        background-color: lightgrey; }
 
-header { background-image: url("bchome.jpg");
+header { background: url("Logo.png");
         background-color: #838383;
          background-position: bottom;
          background-repeat: repeat-x;
