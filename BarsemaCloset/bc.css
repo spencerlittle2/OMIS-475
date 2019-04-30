@@ -50,12 +50,12 @@ Nav li {
     }
 
 nav a { 
-    color: red;
+    color: white;
     text-decoration: none;
     font-family: sans-serif;
         font-size: 20px; }
 nav a:hover {
-    color:white;
+    color: red;
         }
 
 `.w3-container,.w3-panel {padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}`
