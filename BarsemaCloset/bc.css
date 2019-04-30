@@ -7,7 +7,7 @@ body { margin:0;
 header { background: url("Logo.png");
         background-color: #838383;
          background-position: bottom;
-         background-repeat: repeat-x;
+         background-repeat: no-repeat;
          height: 400px;
          color: #ffffff;
          text-align: right;
