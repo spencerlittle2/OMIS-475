@@ -7,11 +7,10 @@ body { margin:0;
 header { background: url("Logo.png");
         background-color: #838383;
          background-position: bottom;
-         background-repeat: no-repeat;
+         background-repeat: repeat-x;
          height: 400px;
          color: #ffffff;
          text-align: right;
-         padding: 0 20px;
          border-bottom: 1px solid #000000; }		 
 
 column {
