@@ -2,6 +2,8 @@
 header, nav, main, footer, aside { display: block; }
 * { box-sizing: border-box;}
 body { margin:0;
+        padding: 0;
+        position: fixed;
        background-color: lightgrey; }
 
 header { background: url("bchome.jpg");
